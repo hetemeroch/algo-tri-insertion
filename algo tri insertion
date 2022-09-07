@@ -1,0 +1,27 @@
+ALGO TRI PAR INSERTION
+
+VAR :
+
+    tab : array_of integer [10]
+    i   : integer
+    j   : integer
+
+BEGIN :
+    FOR i FRON 1 TO tab.length-1 STEP 1 DO
+    
+    var temp = tab[i]
+
+    j  := i 
+
+    if(tab[i] < tab[j] && j >= 0 )  DO 
+
+    tab[j] := tab[j-1]
+
+    j := j - 1
+
+    FIN while
+
+    tab[j] := 
+    
+    END FOR
+END 
